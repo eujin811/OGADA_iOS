@@ -78,17 +78,17 @@ extension CreateDayPayRecordViewController: CreateDayPayDelegate {
         // 앨범에서 사진 가져오기.
 //        print("addPicture")
         
-        let alertController = Alert(title: nil, message: nil, preferredStyle: .actionSheet)
-        
-        let albumAction = UIAlertAction(title: "앨범", style: .default, handler: { _ in
-            self.presentAlbum()
-        })
-        let cameraAction = UIAlertAction(title: "카메라", style: .default, handler: { _ in
-            self.presentCamera()
-        })
-        let cancelAction = UIAlertAction(title: "취소", style: .cancel)
-        
-        alertController.freeAlertDisplay(target: self, actions: [albumAction, cameraAction, cancelAction])
+//        let alertController = Alert(title: nil, message: nil, preferredStyle: .actionSheet)
+//        
+//        let albumAction = UIAlertAction(title: "앨범", style: .default, handler: { _ in
+//            self.presentAlbum()
+//        })
+//        let cameraAction = UIAlertAction(title: "카메라", style: .default, handler: { _ in
+//            self.presentCamera()
+//        })
+//        let cancelAction = UIAlertAction(title: "취소", style: .cancel)
+//        
+//        alertController.freeAlertDisplay(target: self, actions: [albumAction, cameraAction, cancelAction])
         
     }
     
