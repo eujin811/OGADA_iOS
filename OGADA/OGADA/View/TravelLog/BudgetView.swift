@@ -15,7 +15,7 @@ protocol BudgetViewDelegate: class {
 }
 
 class BudgetView: UIView {
-    
+     
     weak var delegate: BudgetViewDelegate?
     
     var totalBudget: Int

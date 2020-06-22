@@ -34,9 +34,9 @@ class DayPayRecordViewController: UIViewController {
     private let titleImageString = "DayPayRecord"
     private let categoryImageString = "cafe"
     private let payTypeImageString = "card&cash"
-    private let cellTitle = "팁싸마이 "
-    private let cellComment = "오렌지 주스 존맛탱구리~~"
-    private let cellAmount = 21
+    private let cellTitle:[String] = ["팁싸마이", "길거리", "야시장", "야시장", "진진레스토랑"]//"팁싸마이"
+    private let cellComment:[String] = ["오렌지 주스 존맛탱구리~~", "탕후루", "원피스", "커피", "면요리, 후식, 커피"]//"오렌지 주스 존맛탱구리~~"
+    private let cellAmount:[Int] = [21, 15, 80, 80, 65]//21
     
     
     override func viewDidLoad() {
@@ -128,7 +128,7 @@ extension DayPayRecordViewController: UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: DayPayRecordTableViewCell.identifier, for: indexPath) as! DayPayRecordTableViewCell
         
-        cell.configure(titleImage: UIImage(named: titleImageString)!, categoryImage: UIImage(named: categoryImageString)!, title: cellTitle, comment: cellComment, payTypeImage: UIImage(named: payTypeImageString)!, amount: cellAmount, exchangeType: exchangeType)
+        cell.configure(titleImage: UIImage(named: titleImageString)!, categoryImage: UIImage(named: categoryImageString)!, title: cellTitle[indexPath.row], comment: cellComment[indexPath.row], payTypeImage: UIImage(named: payTypeImageString)!, amount: cellAmount[indexPath.row], exchangeType: exchangeType)
         
         return cell
     }
