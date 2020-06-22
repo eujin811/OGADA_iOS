@@ -47,7 +47,6 @@ class MovingLineViewController: UIViewController {
     // MARK: UI
     private func setUI() {
         view.addSubview(movingeLineView)
-        navigationController?.navigationBar.isHidden = false
         
         
         movingeLineView.tableView.dataSource = self
@@ -227,6 +226,8 @@ extension MovingLineViewController: MKMapViewDelegate {
     
 }
 
+
+//MARK: AddPlacePointViewControllerDelegate extension
 extension MovingLineViewController: AddPlacePointViewControllerDelegate {
     func completeAddPlaces(position: Int, placeList: [Place]) {
 //        print(#function)

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BoardingPassViewController: BaseViewController {
+class BoardingPassViewController: UIViewController {
     
     private let boardingPassView = UIView()
     private let boardingPassImage = UIImageView()

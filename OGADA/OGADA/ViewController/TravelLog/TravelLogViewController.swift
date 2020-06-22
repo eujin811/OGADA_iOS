@@ -30,13 +30,13 @@ class TravelLogViewController: UIViewController/*BaseViewController*/ {
     // 여러개 들어오 예정
 //    private let day: Int = 1
     
-    private let date: [String] = ["2020.01.01", "2020.01.02", "2020.01.03", "2020.01.04"]//"2020.01.01"
-    private var foreignCash: [Int] = [100, 200, 150, 250]//100
-    private let krwCash: [Int] = [120000, 24000, 1800, 30000]//120000
-    private let foreignCard: [Int] = [210, 210, 105, 0]//210
-    private let krwCard: [Int] = [25200, 25200, 12600, 0]//252000
-//    private let foreignTotal: [Int] = []//210
-//    private let krwtotal: Int = 372000
+    private let date: String = "2020.01.01"
+    private var foreignCash: Int = 100
+    private let krwCash: Int = 120000
+    private let foreignCard: Int = 210
+    private let krwCard: Int = 252000
+    private let foreignTotal: Int = 210
+    private let krwtotal: Int = 372000
         
     private let flowLayout = UICollectionViewFlowLayout()
     private lazy var collectionView = UICollectionView(frame: .zero
@@ -203,17 +203,7 @@ extension TravelLogViewController: UICollectionViewDataSource {
         
         cell.backgroundColor = .background
         
-        
-        cell.configure(day: indexPath.row + 1,
-                       date: date[indexPath.row],
-                       foreignType: exchangeType,
-                       foreignCash: foreignCash[indexPath.row],
-                       krwCash: krwCash[indexPath.row],
-                       foreignCard: foreignCard[indexPath.row],
-                       krwCard: krwCard[indexPath.row],
-                       foreignTotal: foreignCash[indexPath.row] + foreignCard[indexPath.row],
-                       krwTotal: krwCash[indexPath.row] + krwCard[indexPath.row],
-                       backgroundImage: UIImage(named: "post it")!)
+        cell.configure(day: indexPath.row + 1, date: date, foreignType: exchangeType, foreignCash: foreignCash, krwCash: krwCash, foreignCard: foreignCard, krwCard: krwCard, foreignTotal: foreignTotal, krwTotal: krwtotal, backgroundImage: UIImage(named: "post it")!)
         
         return cell
     }
