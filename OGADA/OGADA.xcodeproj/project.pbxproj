@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3102B574241A1D91006CB6EE /* DateWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102B573241A1D91006CB6EE /* DateWorker.swift */; };
+		3102B577241A788B006CB6EE /* TerminalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102B575241A788B006CB6EE /* TerminalInfoView.swift */; };
+		3102B578241A788B006CB6EE /* AddBoardingPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102B576241A788B006CB6EE /* AddBoardingPassView.swift */; };
+		3107074C241ABB26008FB03C /* SelectedTravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107074B241ABB26008FB03C /* SelectedTravel.swift */; };
+		3107074E241ABB5A008FB03C /* CreateDayPayPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107074D241ABB5A008FB03C /* CreateDayPayPickerView.swift */; };
+		31070753241ABB7B008FB03C /* CreateDayPayRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107074F241ABB7B008FB03C /* CreateDayPayRecordViewController.swift */; };
+		31070754241ABB7B008FB03C /* DayPayRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31070750241ABB7B008FB03C /* DayPayRecordViewController.swift */; };
+		31070755241ABB7B008FB03C /* PayTypePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31070751241ABB7B008FB03C /* PayTypePickerViewController.swift */; };
+		31070756241ABB7B008FB03C /* CatgoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31070752241ABB7B008FB03C /* CatgoryPickerViewController.swift */; };
+		31070758241AC067008FB03C /* MovingLineAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31070757241AC067008FB03C /* MovingLineAnnotationView.swift */; };
+		3107075A241AC108008FB03C /* MovingLineAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31070759241AC108008FB03C /* MovingLineAnnotation.swift */; };
+		311FA2622414E05B00C362EF /* PlacePointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FA2612414E05B00C362EF /* PlacePointCell.swift */; };
+		311FA26524151A2D00C362EF /* MainButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FA26324151A2D00C362EF /* MainButtonCollectionViewCell.swift */; };
+		311FA26624151A2D00C362EF /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FA26424151A2D00C362EF /* MainCollectionViewCell.swift */; };
+		311FA26824151B2E00C362EF /* AddTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FA26724151B2D00C362EF /* AddTravelViewController.swift */; };
+		311FA26A241609B000C362EF /* AddPlacePointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FA269241609AF00C362EF /* AddPlacePointViewController.swift */; };
+		311FA26C241609C700C362EF /* AddPlacePointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FA26B241609C700C362EF /* AddPlacePointView.swift */; };
+		311FA2782416462300C362EF /* ProcedureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FA2772416462300C362EF /* ProcedureViewController.swift */; };
+		311FA27E241763F600C362EF /* AddPLacePointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FA27D241763F600C362EF /* AddPLacePointModel.swift */; };
+		312FCCB22419244800963AFC /* DayPayRecordHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCAF2419244800963AFC /* DayPayRecordHeaderView.swift */; };
+		312FCCB32419244800963AFC /* DayPayRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCB02419244800963AFC /* DayPayRecordTableViewCell.swift */; };
+		312FCCB42419244800963AFC /* DayPayRecordFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCB12419244800963AFC /* DayPayRecordFooterView.swift */; };
+		312FCCB92419245800963AFC /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCB62419245800963AFC /* BudgetView.swift */; };
+		312FCCBA2419245800963AFC /* PostItCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCB72419245800963AFC /* PostItCollectionViewCell.swift */; };
+		312FCCBF241924AF00963AFC /* Foreign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCBD241924AE00963AFC /* Foreign.swift */; };
+		312FCCC0241924AF00963AFC /* TravelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCBE241924AE00963AFC /* TravelInfo.swift */; };
+		312FCCC32419255300963AFC /* AddBoardingPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCC12419255200963AFC /* AddBoardingPassViewController.swift */; };
+		312FCCC42419255300963AFC /* InputInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCC22419255300963AFC /* InputInfoViewController.swift */; };
+		312FCCC624196FE900963AFC /* MovingLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCC524196FE900963AFC /* MovingLineModel.swift */; };
+		312FCCC82419820900963AFC /* UserDefaultKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCC72419820900963AFC /* UserDefaultKey.swift */; };
+		312FCCCA2419840E00963AFC /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCC92419840E00963AFC /* Payment.swift */; };
+		312FCCCC2419843600963AFC /* CreateDayPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FCCCB2419843500963AFC /* CreateDayPayView.swift */; };
+		3171E9EE24136BD600E4430A /* GoogleMapAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171E9ED24136BD600E4430A /* GoogleMapAPI.swift */; };
+		3171E9F2241380F500E4430A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171E9F1241380F500E4430A /* MainView.swift */; };
+		3171E9F42413810400E4430A /* BoardingPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171E9F32413810400E4430A /* BoardingPassView.swift */; };
+		3171E9F62413812000E4430A /* MovingLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171E9F52413812000E4430A /* MovingLineView.swift */; };
+		3171E9FA2413814700E4430A /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171E9F92413814700E4430A /* OtherView.swift */; };
+		3171EA002413924000E4430A /* exchangeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171E9FF2413924000E4430A /* exchangeAPI.swift */; };
+		318B099C2410E51200978FF0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B099B2410E51200978FF0 /* BaseViewController.swift */; };
+		319ABC3A240F99AA004A0ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319ABC39240F99AA004A0ED3 /* AppDelegate.swift */; };
+		319ABC3C240F99AA004A0ED3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319ABC3B240F99AA004A0ED3 /* SceneDelegate.swift */; };
+		319ABC3E240F99AA004A0ED3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319ABC3D240F99AA004A0ED3 /* MainViewController.swift */; };
+		319ABC41240F99AA004A0ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319ABC3F240F99AA004A0ED3 /* Main.storyboard */; };
+		319ABC43240F99AD004A0ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319ABC42240F99AD004A0ED3 /* Assets.xcassets */; };
+		319ABC46240F99AD004A0ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319ABC44240F99AD004A0ED3 /* LaunchScreen.storyboard */; };
+		319ABC62240FD32D004A0ED3 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319ABC61240FD32D004A0ED3 /* OtherViewController.swift */; };
+		319ABC64240FD33D004A0ED3 /* TravelLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319ABC63240FD33D004A0ED3 /* TravelLogViewController.swift */; };
+		319ABC66240FD352004A0ED3 /* MovingLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319ABC65240FD352004A0ED3 /* MovingLineViewController.swift */; };
+		319ABC69240FD380004A0ED3 /* BoardingPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319ABC68240FD380004A0ED3 /* BoardingPassViewController.swift */; };
+		31BFD82B2418B58700D84A89 /* SelectedAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BFD82A2418B58700D84A89 /* SelectedAnnotationView.swift */; };
+		31D19526241106A8000F3B62 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D19525241106A8000F3B62 /* Color.swift */; };
+		31DB0A4B241B562000744257 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB0A4A241B562000744257 /* Alert.swift */; };
+		31EE6ABE246A969000AA26FA /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EE6ABD246A969000AA26FA /* APIKey.swift */; };
+		31EE6AC0246A96B500AA26FA /* DayPayRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EE6ABF246A96B500AA26FA /* DayPayRecordModel.swift */; };
+		F846020F2D32668CDA65CC9B /* Pods_OGADA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC15063ABB511453D61596A /* Pods_OGADA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3102B573241A1D91006CB6EE /* DateWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateWorker.swift; sourceTree = "<group>"; };
+		3102B575241A788B006CB6EE /* TerminalInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerminalInfoView.swift; sourceTree = "<group>"; };
+		3102B576241A788B006CB6EE /* AddBoardingPassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBoardingPassView.swift; sourceTree = "<group>"; };
+		3107074B241ABB26008FB03C /* SelectedTravel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedTravel.swift; sourceTree = "<group>"; };
+		3107074D241ABB5A008FB03C /* CreateDayPayPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDayPayPickerView.swift; sourceTree = "<group>"; };
+		3107074F241ABB7B008FB03C /* CreateDayPayRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDayPayRecordViewController.swift; sourceTree = "<group>"; };
+		31070750241ABB7B008FB03C /* DayPayRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayPayRecordViewController.swift; sourceTree = "<group>"; };
+		31070751241ABB7B008FB03C /* PayTypePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTypePickerViewController.swift; sourceTree = "<group>"; };
+		31070752241ABB7B008FB03C /* CatgoryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatgoryPickerViewController.swift; sourceTree = "<group>"; };
+		31070757241AC067008FB03C /* MovingLineAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingLineAnnotationView.swift; sourceTree = "<group>"; };
+		31070759241AC108008FB03C /* MovingLineAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingLineAnnotation.swift; sourceTree = "<group>"; };
+		311FA2612414E05B00C362EF /* PlacePointCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacePointCell.swift; sourceTree = "<group>"; };
+		311FA26324151A2D00C362EF /* MainButtonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		311FA26424151A2D00C362EF /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		311FA26724151B2D00C362EF /* AddTravelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTravelViewController.swift; sourceTree = "<group>"; };
+		311FA269241609AF00C362EF /* AddPlacePointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlacePointViewController.swift; sourceTree = "<group>"; };
+		311FA26B241609C700C362EF /* AddPlacePointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlacePointView.swift; sourceTree = "<group>"; };
+		311FA2772416462300C362EF /* ProcedureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcedureViewController.swift; sourceTree = "<group>"; };
+		311FA27D241763F600C362EF /* AddPLacePointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPLacePointModel.swift; sourceTree = "<group>"; };
+		312FCCAF2419244800963AFC /* DayPayRecordHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayPayRecordHeaderView.swift; path = OGADA/View/TravelLog/DayPayRecordHeaderView.swift; sourceTree = SOURCE_ROOT; };
+		312FCCB02419244800963AFC /* DayPayRecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayPayRecordTableViewCell.swift; path = OGADA/View/TravelLog/DayPayRecordTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		312FCCB12419244800963AFC /* DayPayRecordFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayPayRecordFooterView.swift; path = OGADA/View/TravelLog/DayPayRecordFooterView.swift; sourceTree = SOURCE_ROOT; };
+		312FCCB62419245800963AFC /* BudgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BudgetView.swift; path = OGADA/View/TravelLog/BudgetView.swift; sourceTree = SOURCE_ROOT; };
+		312FCCB72419245800963AFC /* PostItCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostItCollectionViewCell.swift; path = OGADA/View/TravelLog/PostItCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		312FCCBD241924AE00963AFC /* Foreign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foreign.swift; sourceTree = "<group>"; };
+		312FCCBE241924AE00963AFC /* TravelInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelInfo.swift; sourceTree = "<group>"; };
+		312FCCC12419255200963AFC /* AddBoardingPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBoardingPassViewController.swift; sourceTree = "<group>"; };
+		312FCCC22419255300963AFC /* InputInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputInfoViewController.swift; sourceTree = "<group>"; };
+		312FCCC524196FE900963AFC /* MovingLineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingLineModel.swift; sourceTree = "<group>"; };
+		312FCCC72419820900963AFC /* UserDefaultKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultKey.swift; sourceTree = "<group>"; };
+		312FCCC92419840E00963AFC /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		312FCCCB2419843500963AFC /* CreateDayPayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDayPayView.swift; sourceTree = "<group>"; };
+		3171E9ED24136BD600E4430A /* GoogleMapAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapAPI.swift; sourceTree = "<group>"; };
+		3171E9F1241380F500E4430A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3171E9F32413810400E4430A /* BoardingPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPassView.swift; sourceTree = "<group>"; };
+		3171E9F52413812000E4430A /* MovingLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingLineView.swift; sourceTree = "<group>"; };
+		3171E9F92413814700E4430A /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		3171E9FF2413924000E4430A /* exchangeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exchangeAPI.swift; sourceTree = "<group>"; };
+		318B099B2410E51200978FF0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		319ABC36240F99AA004A0ED3 /* OGADA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OGADA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		319ABC39240F99AA004A0ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		319ABC3B240F99AA004A0ED3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		319ABC3D240F99AA004A0ED3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		319ABC40240F99AA004A0ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		319ABC42240F99AD004A0ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		319ABC45240F99AD004A0ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		319ABC47240F99AD004A0ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319ABC61240FD32D004A0ED3 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		319ABC63240FD33D004A0ED3 /* TravelLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelLogViewController.swift; sourceTree = "<group>"; };
+		319ABC65240FD352004A0ED3 /* MovingLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingLineViewController.swift; sourceTree = "<group>"; };
+		319ABC68240FD380004A0ED3 /* BoardingPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPassViewController.swift; sourceTree = "<group>"; };
+		31BFD82A2418B58700D84A89 /* SelectedAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedAnnotationView.swift; sourceTree = "<group>"; };
+		31D19525241106A8000F3B62 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		31DB0A4A241B562000744257 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		31EE6ABD246A969000AA26FA /* APIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		31EE6ABF246A96B500AA26FA /* DayPayRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayPayRecordModel.swift; sourceTree = "<group>"; };
+		4DC15063ABB511453D61596A /* Pods_OGADA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OGADA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E66789287E6F86312974DC0 /* Pods-OGADA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGADA.release.xcconfig"; path = "Target Support Files/Pods-OGADA/Pods-OGADA.release.xcconfig"; sourceTree = "<group>"; };
+		AAED3A564C64E36B82E1F8CB /* Pods-OGADA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGADA.debug.xcconfig"; path = "Target Support Files/Pods-OGADA/Pods-OGADA.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		319ABC33240F99AA004A0ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F846020F2D32668CDA65CC9B /* Pods_OGADA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		318B099E2410E63F00978FF0 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				318B099B2410E51200978FF0 /* BaseViewController.swift */,
+				31DB0A4A241B562000744257 /* Alert.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		319ABC2D240F99AA004A0ED3 = {
+			isa = PBXGroup;
+			children = (
+				319ABC38240F99AA004A0ED3 /* OGADA */,
+				319ABC37240F99AA004A0ED3 /* Products */,
+				8088A72708E33775661C63C8 /* Pods */,
+				87D43250953CB08816F2CB54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		319ABC37240F99AA004A0ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				319ABC36240F99AA004A0ED3 /* OGADA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		319ABC38240F99AA004A0ED3 /* OGADA */ = {
+			isa = PBXGroup;
+			children = (
+				31EE6AB9246A955A00AA26FA /* API */,
+				31A3FBE7241F99CC0004EB08 /* Test */,
+				31EE6ABC246A961E00AA26FA /* Model */,
+				319ABC4E240FCD5A004A0ED3 /* View */,
+				319ABC4F240FCD68004A0ED3 /* ViewController */,
+				319ABC39240F99AA004A0ED3 /* AppDelegate.swift */,
+				319ABC3B240F99AA004A0ED3 /* SceneDelegate.swift */,
+				319ABC3F240F99AA004A0ED3 /* Main.storyboard */,
+				319ABC42240F99AD004A0ED3 /* Assets.xcassets */,
+				319ABC44240F99AD004A0ED3 /* LaunchScreen.storyboard */,
+				319ABC47240F99AD004A0ED3 /* Info.plist */,
+			);
+			path = OGADA;
+			sourceTree = "<group>";
+		};
+		319ABC4E240FCD5A004A0ED3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				319ABC5F240FD2DE004A0ED3 /* Other */,
+				319ABC5C240FD293004A0ED3 /* TravelLog */,
+				319ABC59240FD13D004A0ED3 /* MovingLine */,
+				319ABC56240FCF35004A0ED3 /* BoardingPass */,
+				319ABC53240FCE77004A0ED3 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		319ABC4F240FCD68004A0ED3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				318B099E2410E63F00978FF0 /* Global */,
+				319ABC60240FD2E9004A0ED3 /* Other */,
+				319ABC5D240FD299004A0ED3 /* TravelLog */,
+				319ABC58240FD126004A0ED3 /* MovingLine */,
+				319ABC55240FCEEF004A0ED3 /* BoardingPass */,
+				319ABC52240FCE29004A0ED3 /* Main */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		319ABC52240FCE29004A0ED3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				311FA26724151B2D00C362EF /* AddTravelViewController.swift */,
+				319ABC3D240F99AA004A0ED3 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		319ABC53240FCE77004A0ED3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				311FA26324151A2D00C362EF /* MainButtonCollectionViewCell.swift */,
+				311FA26424151A2D00C362EF /* MainCollectionViewCell.swift */,
+				3171E9F1241380F500E4430A /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		319ABC55240FCEEF004A0ED3 /* BoardingPass */ = {
+			isa = PBXGroup;
+			children = (
+				312FCCC12419255200963AFC /* AddBoardingPassViewController.swift */,
+				312FCCC22419255300963AFC /* InputInfoViewController.swift */,
+				311FA2772416462300C362EF /* ProcedureViewController.swift */,
+				319ABC68240FD380004A0ED3 /* BoardingPassViewController.swift */,
+			);
+			path = BoardingPass;
+			sourceTree = "<group>";
+		};
+		319ABC56240FCF35004A0ED3 /* BoardingPass */ = {
+			isa = PBXGroup;
+			children = (
+				3102B576241A788B006CB6EE /* AddBoardingPassView.swift */,
+				3102B575241A788B006CB6EE /* TerminalInfoView.swift */,
+				3171E9F32413810400E4430A /* BoardingPassView.swift */,
+			);
+			path = BoardingPass;
+			sourceTree = "<group>";
+		};
+		319ABC58240FD126004A0ED3 /* MovingLine */ = {
+			isa = PBXGroup;
+			children = (
+				319ABC65240FD352004A0ED3 /* MovingLineViewController.swift */,
+				311FA269241609AF00C362EF /* AddPlacePointViewController.swift */,
+			);
+			path = MovingLine;
+			sourceTree = "<group>";
+		};
+		319ABC59240FD13D004A0ED3 /* MovingLine */ = {
+			isa = PBXGroup;
+			children = (
+				31070757241AC067008FB03C /* MovingLineAnnotationView.swift */,
+				3171E9F52413812000E4430A /* MovingLineView.swift */,
+				311FA2612414E05B00C362EF /* PlacePointCell.swift */,
+				311FA26B241609C700C362EF /* AddPlacePointView.swift */,
+				31BFD82A2418B58700D84A89 /* SelectedAnnotationView.swift */,
+			);
+			path = MovingLine;
+			sourceTree = "<group>";
+		};
+		319ABC5C240FD293004A0ED3 /* TravelLog */ = {
+			isa = PBXGroup;
+			children = (
+				3107074D241ABB5A008FB03C /* CreateDayPayPickerView.swift */,
+				312FCCCB2419843500963AFC /* CreateDayPayView.swift */,
+				312FCCB62419245800963AFC /* BudgetView.swift */,
+				312FCCB72419245800963AFC /* PostItCollectionViewCell.swift */,
+				312FCCB12419244800963AFC /* DayPayRecordFooterView.swift */,
+				312FCCAF2419244800963AFC /* DayPayRecordHeaderView.swift */,
+				312FCCB02419244800963AFC /* DayPayRecordTableViewCell.swift */,
+			);
+			path = TravelLog;
+			sourceTree = "<group>";
+		};
+		319ABC5D240FD299004A0ED3 /* TravelLog */ = {
+			isa = PBXGroup;
+			children = (
+				31070752241ABB7B008FB03C /* CatgoryPickerViewController.swift */,
+				3107074F241ABB7B008FB03C /* CreateDayPayRecordViewController.swift */,
+				31070750241ABB7B008FB03C /* DayPayRecordViewController.swift */,
+				31070751241ABB7B008FB03C /* PayTypePickerViewController.swift */,
+				319ABC63240FD33D004A0ED3 /* TravelLogViewController.swift */,
+			);
+			path = TravelLog;
+			sourceTree = "<group>";
+		};
+		319ABC5F240FD2DE004A0ED3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3171E9F92413814700E4430A /* OtherView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		319ABC60240FD2E9004A0ED3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				319ABC61240FD32D004A0ED3 /* OtherViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		31A3FBE7241F99CC0004EB08 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		31D195242410F0F3000F3B62 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				31D19525241106A8000F3B62 /* Color.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		31EE6AB9246A955A00AA26FA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				31EE6ABD246A969000AA26FA /* APIKey.swift */,
+				3171E9FF2413924000E4430A /* exchangeAPI.swift */,
+				3171E9ED24136BD600E4430A /* GoogleMapAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		31EE6ABC246A961E00AA26FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31EE6ABF246A96B500AA26FA /* DayPayRecordModel.swift */,
+				3107074B241ABB26008FB03C /* SelectedTravel.swift */,
+				312FCCC92419840E00963AFC /* Payment.swift */,
+				312FCCC72419820900963AFC /* UserDefaultKey.swift */,
+				312FCCBD241924AE00963AFC /* Foreign.swift */,
+				312FCCBE241924AE00963AFC /* TravelInfo.swift */,
+				31D195242410F0F3000F3B62 /* Theme */,
+				311FA27D241763F600C362EF /* AddPLacePointModel.swift */,
+				312FCCC524196FE900963AFC /* MovingLineModel.swift */,
+				3102B573241A1D91006CB6EE /* DateWorker.swift */,
+				31070759241AC108008FB03C /* MovingLineAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8088A72708E33775661C63C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAED3A564C64E36B82E1F8CB /* Pods-OGADA.debug.xcconfig */,
+				9E66789287E6F86312974DC0 /* Pods-OGADA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		87D43250953CB08816F2CB54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC15063ABB511453D61596A /* Pods_OGADA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		319ABC35240F99AA004A0ED3 /* OGADA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319ABC4A240F99AD004A0ED3 /* Build configuration list for PBXNativeTarget "OGADA" */;
+			buildPhases = (
+				7DE534CB7EC1B8939E2AAEE7 /* [CP] Check Pods Manifest.lock */,
+				319ABC32240F99AA004A0ED3 /* Sources */,
+				319ABC33240F99AA004A0ED3 /* Frameworks */,
+				319ABC34240F99AA004A0ED3 /* Resources */,
+				9B9F1436F254C76804E47720 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OGADA;
+			productName = OGADA;
+			productReference = 319ABC36240F99AA004A0ED3 /* OGADA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		319ABC2E240F99AA004A0ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = didwndckd;
+				TargetAttributes = {
+					319ABC35240F99AA004A0ED3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 319ABC31240F99AA004A0ED3 /* Build configuration list for PBXProject "OGADA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 319ABC2D240F99AA004A0ED3;
+			productRefGroup = 319ABC37240F99AA004A0ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				319ABC35240F99AA004A0ED3 /* OGADA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		319ABC34240F99AA004A0ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319ABC46240F99AD004A0ED3 /* LaunchScreen.storyboard in Resources */,
+				319ABC43240F99AD004A0ED3 /* Assets.xcassets in Resources */,
+				319ABC41240F99AA004A0ED3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DE534CB7EC1B8939E2AAEE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OGADA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B9F1436F254C76804E47720 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OGADA/Pods-OGADA-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OGADA/Pods-OGADA-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OGADA/Pods-OGADA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		319ABC32240F99AA004A0ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3171E9F42413810400E4430A /* BoardingPassView.swift in Sources */,
+				312FCCC32419255300963AFC /* AddBoardingPassViewController.swift in Sources */,
+				311FA26A241609B000C362EF /* AddPlacePointViewController.swift in Sources */,
+				31BFD82B2418B58700D84A89 /* SelectedAnnotationView.swift in Sources */,
+				319ABC3E240F99AA004A0ED3 /* MainViewController.swift in Sources */,
+				3107074C241ABB26008FB03C /* SelectedTravel.swift in Sources */,
+				311FA2622414E05B00C362EF /* PlacePointCell.swift in Sources */,
+				3107075A241AC108008FB03C /* MovingLineAnnotation.swift in Sources */,
+				311FA26824151B2E00C362EF /* AddTravelViewController.swift in Sources */,
+				3171E9F2241380F500E4430A /* MainView.swift in Sources */,
+				31070754241ABB7B008FB03C /* DayPayRecordViewController.swift in Sources */,
+				312FCCB42419244800963AFC /* DayPayRecordFooterView.swift in Sources */,
+				3102B578241A788B006CB6EE /* AddBoardingPassView.swift in Sources */,
+				312FCCB32419244800963AFC /* DayPayRecordTableViewCell.swift in Sources */,
+				311FA26C241609C700C362EF /* AddPlacePointView.swift in Sources */,
+				312FCCC0241924AF00963AFC /* TravelInfo.swift in Sources */,
+				31070758241AC067008FB03C /* MovingLineAnnotationView.swift in Sources */,
+				319ABC62240FD32D004A0ED3 /* OtherViewController.swift in Sources */,
+				31DB0A4B241B562000744257 /* Alert.swift in Sources */,
+				31070753241ABB7B008FB03C /* CreateDayPayRecordViewController.swift in Sources */,
+				319ABC66240FD352004A0ED3 /* MovingLineViewController.swift in Sources */,
+				311FA26624151A2D00C362EF /* MainCollectionViewCell.swift in Sources */,
+				312FCCC624196FE900963AFC /* MovingLineModel.swift in Sources */,
+				3102B577241A788B006CB6EE /* TerminalInfoView.swift in Sources */,
+				319ABC69240FD380004A0ED3 /* BoardingPassViewController.swift in Sources */,
+				3171E9FA2413814700E4430A /* OtherView.swift in Sources */,
+				312FCCBF241924AF00963AFC /* Foreign.swift in Sources */,
+				312FCCB22419244800963AFC /* DayPayRecordHeaderView.swift in Sources */,
+				312FCCC82419820900963AFC /* UserDefaultKey.swift in Sources */,
+				3107074E241ABB5A008FB03C /* CreateDayPayPickerView.swift in Sources */,
+				312FCCCA2419840E00963AFC /* Payment.swift in Sources */,
+				311FA2782416462300C362EF /* ProcedureViewController.swift in Sources */,
+				3171E9F62413812000E4430A /* MovingLineView.swift in Sources */,
+				311FA27E241763F600C362EF /* AddPLacePointModel.swift in Sources */,
+				3171E9EE24136BD600E4430A /* GoogleMapAPI.swift in Sources */,
+				312FCCB92419245800963AFC /* BudgetView.swift in Sources */,
+				319ABC3A240F99AA004A0ED3 /* AppDelegate.swift in Sources */,
+				312FCCC42419255300963AFC /* InputInfoViewController.swift in Sources */,
+				318B099C2410E51200978FF0 /* BaseViewController.swift in Sources */,
+				319ABC3C240F99AA004A0ED3 /* SceneDelegate.swift in Sources */,
+				3171EA002413924000E4430A /* exchangeAPI.swift in Sources */,
+				311FA26524151A2D00C362EF /* MainButtonCollectionViewCell.swift in Sources */,
+				312FCCCC2419843600963AFC /* CreateDayPayView.swift in Sources */,
+				312FCCBA2419245800963AFC /* PostItCollectionViewCell.swift in Sources */,
+				31EE6ABE246A969000AA26FA /* APIKey.swift in Sources */,
+				31070756241ABB7B008FB03C /* CatgoryPickerViewController.swift in Sources */,
+				31EE6AC0246A96B500AA26FA /* DayPayRecordModel.swift in Sources */,
+				319ABC64240FD33D004A0ED3 /* TravelLogViewController.swift in Sources */,
+				31D19526241106A8000F3B62 /* Color.swift in Sources */,
+				3102B574241A1D91006CB6EE /* DateWorker.swift in Sources */,
+				31070755241ABB7B008FB03C /* PayTypePickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		319ABC3F240F99AA004A0ED3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				319ABC40240F99AA004A0ED3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		319ABC44240F99AD004A0ED3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				319ABC45240F99AD004A0ED3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		319ABC48240F99AD004A0ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		319ABC49240F99AD004A0ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		319ABC4B240F99AD004A0ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAED3A564C64E36B82E1F8CB /* Pods-OGADA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
+				INFOPLIST_FILE = OGADA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJY.guja.OGADA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		319ABC4C240F99AD004A0ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E66789287E6F86312974DC0 /* Pods-OGADA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
+				INFOPLIST_FILE = OGADA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJY.guja.OGADA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		319ABC31240F99AA004A0ED3 /* Build configuration list for PBXProject "OGADA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319ABC48240F99AD004A0ED3 /* Debug */,
+				319ABC49240F99AD004A0ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		319ABC4A240F99AD004A0ED3 /* Build configuration list for PBXNativeTarget "OGADA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319ABC4B240F99AD004A0ED3 /* Debug */,
+				319ABC4C240F99AD004A0ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 319ABC2E240F99AA004A0ED3 /* Project object */;
+}
